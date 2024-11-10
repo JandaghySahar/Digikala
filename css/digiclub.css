@@ -1,0 +1,57 @@
+.digiclub {
+  width: 100%;
+  height: 87px;
+  margin-top: 24px;
+  & .container {
+    height: 100%;
+    background-image: linear-gradient(89.07deg, #35a6c8 33.32%, #007295 71.55%);
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    & .digiclub__right {
+      margin-right: 40px;
+    }
+    & .digiclub__left {
+      height: 60px;
+      margin-right: 350px;
+      display: flex;
+      gap: 4px;
+      border-radius: 8px;
+      & .digiclub__left-link {
+        display: flex;
+
+        & .digiclub__component {
+          
+          width: 100px;
+          height: 60px;
+          background-color: white;
+          display: flex;
+          justify-content: center;
+          & svg {
+            width: 28px;
+            height: 20px;
+            margin-top: 21px;
+          }
+          & .digiclub__title {
+            font-size: 12px;
+            font-weight: 700;
+            margin-top: 21px;
+          }
+         
+        
+        }
+        & .digiclub__left-img {
+          & img {
+            width: 168px;
+            height: 60px;
+            display: block;
+          }
+        
+        }
+      }
+      
+    }
+  }
+}
+
+

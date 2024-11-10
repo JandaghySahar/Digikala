@@ -1,0 +1,17 @@
+.advertising {
+  width: 100%;
+  height: 241px;
+  margin-top: 16px;
+  & .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    & .advertising-link {
+      & .advertising-img {
+        width: 322px;
+        border-radius: 16px;
+      }
+    }
+  }
+}

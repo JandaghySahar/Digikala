@@ -1,0 +1,33 @@
+.shop__by__category {
+  width: 100%;
+  & .title {
+    font-size: 22px;
+    text-align: center;
+    font-weight: 500;
+    color: black;
+    margin: 32px auto;
+  }
+  & .container {
+    margin-top: 36px;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    & .shop__by__category-link {
+      width: calc(100% / 12);
+      height: 160px;
+      margin-right: 40px;
+      & .shop__by__category-img {
+        width: 100px;
+        height: 100px;
+      }
+
+      & .shop__by__category-title {
+        font-size: 12px;
+        font-weight: 700;
+        display: flex;
+        justify-content: center;
+      }
+    }
+  }
+}

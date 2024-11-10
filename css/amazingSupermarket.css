@@ -1,0 +1,92 @@
+.amazing_supermarket {
+  width: 100%;
+  height: 110px;
+  margin-top: 16px;
+
+  & .container {
+    background-image: url("../public/images/freshPattern.svg");
+    background-color: #f0f0f1;
+
+    display: flex;
+    border-radius: 16px;
+    & .img_fresh_link {
+      text-decoration: none;
+      & .img__fresh {
+        width: 66px;
+        height: 62px;
+        margin: 26px 22px;
+      }
+    }
+    & .incredible_offer {
+      text-decoration: none;
+      & .img_incredible_offer {
+        margin-top: 40px;
+        margin-right: 20px;
+      }
+    }
+    & .discount_percent-right {
+      width: 110px;
+      height: 28px;
+      margin-top: 40px;
+      background-color: #029a49;
+      border-radius: 16px;
+      margin-right: 20px;
+
+      & .discount_percent_link {
+        color: white;
+        text-decoration: none;
+        font-size: 14px;
+        font-weight: 700;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    }
+    & .amazing__container-left {
+      width: 492;
+      height: 74;
+      display: flex;
+      align-items: center;
+      margin-right: 155px;
+      & .img {
+        width: 74px;
+        height: 74px;
+        position: relative;
+        z-index: 10;
+        display: flex;
+        margin-left: 8px;
+        & .amazing_img {
+          border-radius: 37px;
+        }
+        & .discount_percent {
+          width: 34px;
+          height: 20px;
+          background-color: #d32f2f;
+          color: white;
+          margin-top: 50px;
+          position: absolute;
+          z-index: 20;
+          font-size: 12px;
+          border-radius: 50px;
+          text-align: center;
+        }
+      }
+    }
+    & .other_amazing {
+      width: 142px;
+      height: 50px;
+      background-color: white;
+      border-radius: 9999px;
+      margin-top: 32px;
+      font-weight: 700;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      & span {
+        color: #029a49;
+        font-size: 12px;
+        font-weight: 700;
+      }
+    }
+  }
+}
