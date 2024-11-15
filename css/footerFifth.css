@@ -1,0 +1,19 @@
+.footer__fifth {
+  width: 100%;
+  height: 100%;
+  & .container-footer {
+    height: 160px;
+    display: flex;
+    flex-flow: row wrap;
+    background-color: #e0e0e2;
+    & .digiplus {
+      width: 209px;
+      height: 80px;
+      padding: 30px 60px;
+      border-bottom: 1px solid #cacaca;
+      border-left: 1px solid #cacaca;     
+     }
+     
+     }
+    }
+  

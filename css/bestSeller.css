@@ -44,7 +44,6 @@
         background: #fff;
         height: calc((100%) / 3) !important;
 
-        /* Center slide text vertically */
         display: flex;
         justify-content: start;
         align-items: center;
@@ -79,7 +78,8 @@
         }
       
       }
-      & .swiper-button-prev{
+      & .swiper-button-next{
+        background-color: black;
         color: orange;
         position: absolute;
         z-index: 30;

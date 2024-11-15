@@ -1,0 +1,39 @@
+.footer__third{
+    width: 100%;
+    height: 100%;
+    margin-top: 28px;
+    & .container-footer{
+        width: 100%;
+        height: 224px;
+        display: flex;
+        padding: 16px;
+        border-top: 1px solid #F0F0F1;
+        & .commerce__right{
+            width: 1154px;
+            height: 125px;
+            & .commerce__title{
+                font-size: 24px;
+                color: #81858B;
+            }
+            & .commerce__parag{
+                white-space: nowrap;
+                overflow: hidden;
+            }
+            & .commerce__link{
+                margin-top: 8px;
+                color: #19BFD3;
+
+            }
+        }
+        & .commerce__left{
+            margin-right: 140px;
+
+            & .commerce__img{
+                width: 108px;
+                height: 108px;
+                border-radius: 8px;
+                border:1px solid #E0E0E2;
+            }
+        }
+    }
+}
